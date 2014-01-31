@@ -13,7 +13,9 @@ antonioj85 at gmail.com
 The Robot Exclusion Standard, also known as the Robots Exclusion Protocol or robots.txt protocol, is a convention to advising cooperating web crawlers and other web robots about accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code. The standard is different from, but can be used in conjunction with, Sitemaps, a robot inclusion standard for websites.
 
 ##Usage
-`perl robottracker.pl www.casareal.es`
+```sh
+perl robottracker.pl www.casareal.es
+```
 
 This commands show the info which www.casareal.es do not like to make it available to crawlers. It is an info that you can't get in a search engine. For our example, we can give this output:
 
